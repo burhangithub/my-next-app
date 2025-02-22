@@ -1,0 +1,34 @@
+
+.firstSection{
+    text-align: center;
+}
+.firstContainer {
+    background: #083c70f0;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 100px
+}
+.firstContainer h1 {
+    font-size:  60px;
+    position: relative;
+    padding-top: 30px;
+    font-family: 'Lato';
+    color: white;
+}
+.firstContainer p {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    padding: 0 50px 40px;
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+
+    .firstContainer{
+        width: 80%;
+    }
+    .firstContainer h1{
+        font-size: 36px;
+    }
+
+}

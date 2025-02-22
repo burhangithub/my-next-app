@@ -1,0 +1,66 @@
+
+.secondSection {
+    margin-top: 230px;
+    background: #293233;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 sütunlu bir grid oluşturur */
+    gap: 20px; /* card'lar arası boşluk */
+    position: relative;
+    bottom: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* içerikleri merkeze hizalar */
+    text-align: center;
+    border-radius: 30px; /* köşeleri yuvarlar */
+    height: 405px;
+    background: white;
+}
+
+
+.card img {
+    width: 78px;
+    height: 78px;
+}
+.card p {
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+.cardInfo{
+    background: #083c70f0;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 42%;
+}
+.cardInfo img{
+    margin-top: 12px;
+}
+.cardInfo h3{
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+.card h3 {
+    margin-top: 20px;
+}
+
+.card p {
+    margin-top: 20px;
+    text-align: center; /* metni merkeze hizalar */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .cards {
+        grid-template-columns: auto;
+    }
+}

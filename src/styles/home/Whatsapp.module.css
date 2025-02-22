@@ -1,0 +1,50 @@
+
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;  /* Diğer elementlerin üstünde olsun diye */
+}
+.wpContainer{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;  /* Diğer elementlerin üstünde olsun diye */
+}
+.fa-whatsapp {
+    font-size: 50px;
+    color: #25D366;
+    padding: 10px;
+    background-color: white;  /* Arka planı beyaz yapmak için */
+    border-radius: 50%;  /* İkonun etrafını yuvarlak yapmak için */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  /* Hafif bir gölge eklemek için */
+}
+.fa-whatsapp ::before{
+    font-size: 70px;
+
+}
+.wpContainer span{
+    position: relative;
+    right: 30px;
+    color: #25D366;  /* Yazının rengini ayarlamak için */
+    font-weight: bold;  /* Yazının kalın olmasını sağlamak için */
+    text-decoration: none;
+}
+
+#wpButton{
+    font-size: 100px;
+    color:#25D366;
+    position: relative;
+    bottom: 250px;
+    right: 5px;
+}
+@media screen and (max-width: 992px) {
+
+    #wpButton{
+        font-size: 50px;
+        bottom: 20px;
+        right: 0;
+    }
+}
+

@@ -1,0 +1,105 @@
+
+
+.headerContainer{
+    position: relative;
+    bottom: 15px;
+    max-height: 121px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerContainer  img{
+    height: 100px;
+    margin-left: 30px;
+}
+.isMobileDiv{
+    margin-top: 100px;
+}
+
+.navbar {
+    display: none;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 14px 20px;
+}
+
+.menuIcon .bar {
+    background-color: black;
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 3px auto;
+}
+
+.menu {
+    margin-right: 5%;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.menu span {
+    margin-left: 15px;
+}
+
+.menu  a {
+    text-decoration: none;
+    color: black;
+}
+.menu li {
+    font-weight: bold;
+    padding: 15px 60px;
+    background: #083c70f0;
+    border: solid 1px black;
+    border-radius: 5px;
+    color: white;
+}
+.menu li:hover{
+    background: #cccccc;
+    color: white;
+}
+.menu li a:hover {
+    text-decoration: none;
+}
+
+/* Mobil cihazlar için */
+@media (max-width: 992px) {
+    .menu {
+        display: none;
+        flex-flow: column nowrap;
+        position: absolute;
+        width: 100%;
+        top: 2px;
+        height: 100%;
+    }
+    .navbar{
+        display: flex;
+        background: transparent;
+    }
+    .menuIcon {
+        color: black;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+    .headerContainer {
+        text-align: center;
+    }
+    .menu li:hover{
+        background: #cccccc;
+        color: white;
+    }
+    .menu li a:hover {
+        text-decoration: none;
+    }
+    .headerContainer img {
+        margin-left: 0;
+    }
+}
+
+
+
+
+

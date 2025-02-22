@@ -1,0 +1,68 @@
+
+.fourthContainer{
+    background: #293233;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.fourthContainer h1{
+    margin: 0;
+    font-size: 68px;
+    color: white;
+}
+.contactForm{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.inputGroups{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.contactForm ::placeholder{
+    color: lightgrey ;
+    position: relative;
+    left: 10px;
+}
+.formElements{
+    height: 30px;
+    width: 300px;
+    background: #435152;
+    color: lightgrey;
+}
+
+.contactForm textarea{
+    margin-top: 30px;
+    height: 80px;
+    width: 400px;
+    overflow: hidden;
+}
+.formButton{
+    width: 400px;
+    height: 34.2px;
+    background: #083c70f0;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.formButton :hover{
+    background: #435152;
+    color: #083c70f0;
+}
+@media screen and (max-width: 922px) {
+    .inputGroups {
+        flex-direction: column;
+    }
+    .contactForm textarea{
+        width: 300px;
+    }
+    .formButton{
+        width: 300px;
+    }
+    .fourthContainer h1{
+        font-size: 48px;
+    }
+}

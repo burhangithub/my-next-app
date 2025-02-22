@@ -1,0 +1,45 @@
+
+.firstSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* iki div yarı yarıya genişlikte olacak */
+    gap: 20px; /* div'ler arasında 20px boşluk olacak */
+    margin-left: 30px; /* soldan 30px boşluk */
+    margin-right: 30px; /* sağdan 30px boşluk */
+    margin-top: 40px;
+}
+
+.imageContainer {
+    text-align: center;
+}
+.imageContainer img {
+    width: 80%; /* Resmin genişliği tüm konteyneri kaplar */
+    height: 100%; /* Resmin yüksekliği tüm konteyneri kaplar */
+    object-fit: cover;
+    border-radius: 50px;
+    border: solid 1px #083c70f0;
+}
+
+.contentContainer{
+    font-family: 'PT Sans', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.contentContainer > h1{
+    font-size: 30px;
+}
+.contentContainer h2{
+    font-size: 30px;
+    color: #083c70f0;
+}
+
+@media screen and (max-width: 922px) {
+    .firstSection {
+        grid-template-columns: auto;
+    }
+    .contentContainer{
+        position: relative;
+        top: 50px;
+    }
+}
