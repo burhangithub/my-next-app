@@ -25,7 +25,7 @@ const  Header= () => {
                 <ul className={`${styles.menu} ${isOpen ? styles.active : ''}`}>
                     <a href="/"><li>ANASAYFA</li></a>
                     <span></span>
-                    <a href="/services"><li>HİZMETLER</li></a>
+                    <a href="/hizmetler"><li>HİZMETLER</li></a>
                 </ul>
             </div>
     )
