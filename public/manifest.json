@@ -1,6 +1,7 @@
 {
   "short_name": "MDN Lojistik",
-  "name": "MDN Lojistik",
+  "name": "MDN Lojistik - İstanbul Lojistik ve Kargo Hizmetleri",
+  "description": "İstanbul genelinde güvenilir lojistik ve kargo hizmetleri",
   "icons": [
     {
       "src": "logo.png",
@@ -20,6 +21,9 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#667eea",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "tr"
 }
