@@ -62,18 +62,18 @@ const FirstSection = () => {
                             Profesyonel ekibimiz ve geniş araç filomuzla yanınızdayız.
                         </p>
                         <div className="d-flex flex-wrap gap-3 mb-4 justify-content-center justify-content-lg-start">
-                            <div className="d-flex align-items-center  bg-opacity-20 rounded p-3">
-                                <i className="bi bi-truck text-white fs-3 me-3"></i>
+                            <div className="d-flex align-items-center bg-opacity-20 rounded first-section-feature-card">
+                                <i className="bi bi-truck text-white first-section-feature-icon"></i>
                                 <div>
-                                    <div className="fw-bold">Hızlı Teslimat</div>
-                                    <small className="opacity-75">Aynı gün içinde</small>
+                                    <div className="fw-bold first-section-feature-title">Hızlı Teslimat</div>
+                                    <small className="opacity-75 first-section-feature-subtitle">Aynı gün içinde</small>
                                 </div>
                             </div>
-                            <div className="d-flex align-items-center  bg-opacity-20 rounded p-3">
-                                <i className="bi bi-shield-check text-white fs-3 me-3"></i>
+                            <div className="d-flex align-items-center bg-opacity-20 rounded first-section-feature-card">
+                                <i className="bi bi-shield-check text-white first-section-feature-icon"></i>
                                 <div>
-                                    <div className="fw-bold">Güvenli Nakliye</div>
-                                    <small className="opacity-75">Tam güvence altında</small>
+                                    <div className="fw-bold first-section-feature-title">Güvenli Nakliye</div>
+                                    <small className="opacity-75 first-section-feature-subtitle">Tam güvence altında</small>
                                 </div>
                             </div>
                         </div>
@@ -81,7 +81,7 @@ const FirstSection = () => {
                             <Button 
                                 size="lg" 
                                 variant="light" 
-                                className="fw-bold px-4 px-md-5 py-3"
+                                className="fw-bold first-section-button"
                                 style={{ borderRadius: '30px' }}
                                 onClick={() => scrollToSection('iletisim')}
                             >
@@ -91,7 +91,7 @@ const FirstSection = () => {
                             <Button 
                                 size="lg" 
                                 variant="outline-light" 
-                                className="fw-bold px-4 px-md-5 py-3"
+                                className="fw-bold first-section-button"
                                 style={{ borderRadius: '30px' }}
                                 href="https://wa.me/+905523407934"
                                 target="_blank"

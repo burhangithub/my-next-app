@@ -127,6 +127,29 @@ section {
   line-height: 1.8;
 }
 
+/* FirstSection feature cards - desktop default */
+.first-section-feature-card {
+  padding: 1rem;
+}
+
+.first-section-feature-icon {
+  font-size: 1.75rem;
+  margin-right: 0.75rem;
+}
+
+.first-section-feature-title {
+  font-size: 1rem;
+}
+
+.first-section-feature-subtitle {
+  font-size: 0.875rem;
+}
+
+.first-section-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
 /* Responsive improvements */
 @media (max-width: 768px) {
   .display-3 {
@@ -140,5 +163,33 @@ section {
   .header-container-mobile {
     display: flex !important;
     justify-content: center !important;
+  }
+  
+  /* FirstSection mobil küçültmeler */
+  .first-section-feature-card {
+    padding: 0.75rem !important;
+    gap: 0.5rem;
+  }
+  
+  .first-section-feature-icon {
+    font-size: 1.25rem !important;
+    margin-right: 0.5rem !important;
+  }
+  
+  .first-section-feature-title {
+    font-size: 0.875rem !important;
+  }
+  
+  .first-section-feature-subtitle {
+    font-size: 0.75rem !important;
+  }
+  
+  .first-section-button {
+    padding: 0.5rem 1rem !important;
+    font-size: 0.875rem !important;
+  }
+  
+  .first-section-button i {
+    font-size: 0.875rem !important;
   }
 }
